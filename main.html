@@ -35,9 +35,9 @@
 	<td id="style_setting">
 	<form>
 		<h3>基本设置</h3>
-		<span>代号</span><input type="text" name="schema" value="example" onchange="writeIn(this.name,this.value);"><br />
-		<span>名称</span><input type="text" name="name" value="名字" onchange="writeIn(this.name,this.value);"><br />
-		<span>作者</span><input type="text" name="author" value="作者" onchange="writeIn(this.name,this.value);"><br />
+		<span>代号</span><input type="text" name="schema" value="宋青" onchange="writeIn(this.name,this.value);"><br />
+		<span>名称</span><input type="text" name="name" value="Jack的配色/宋青" onchange="writeIn(this.name,this.value);"><br />
+		<span>作者</span><input type="text" name="author" value="Jack" onchange="writeIn(this.name,this.value);"><br />
 
 		<span>候选数</span>	<input type="range" value="9" min="1" max="9" name="number" onchange="changeNumber(this.value)"><br />
 		<span>背景色</span><input type="text" id="background" class="color" name="body" value="F9F9F9" onchange="document.getElementById('effect').style.backgroundColor = '#'+this.color">
@@ -80,18 +80,18 @@
 	<td id="code_generate">
 	<h2>生成代码</h2>
 	<div id="source_code">
-		<div><span>&nbsp;&nbsp;"preset_color_schemes/</span><span id="schema">example</span><span>":</span></div>
-    <div>&nbsp;&nbsp;&nbsp;&nbsp;name:&nbsp;<span id="name">名字</span></div>
-    <div>&nbsp;&nbsp;&nbsp;&nbsp;author:&nbsp;<span id="author">作者</span></div>
-    <div>&nbsp;&nbsp;&nbsp;&nbsp;back_color:&nbsp;0x<span id="back_color">FFFFFF</span></div>
-    <div>&nbsp;&nbsp;&nbsp;&nbsp;border_color:&nbsp;0x<span id="border_color">000000</span></div>
-    <div>&nbsp;&nbsp;&nbsp;&nbsp;text_color:&nbsp;0x<span id="text_color">FFFFFF</span></div>
-    <div>&nbsp;&nbsp;&nbsp;&nbsp;hilited_text_color:&nbsp;0x<span id="hilited_text_color">FFFFFF</span></div>
-    <div>&nbsp;&nbsp;&nbsp;&nbsp;hilited_back_color:&nbsp;0x<span id="hilited_back_color">DDDDDD</span></div>
-    <div>&nbsp;&nbsp;&nbsp;&nbsp;hilited_candidate_text_color:&nbsp;0x<span id="hilited_candidate_text_color">000000</span></div>
-    <div>&nbsp;&nbsp;&nbsp;&nbsp;hilited_candidate_back_color:&nbsp;0x<span id="hilited_candidate_back_color">FFFFFF</span></div>
-    <div>&nbsp;&nbsp;&nbsp;&nbsp;candidate_text_color:&nbsp;0x<span id="candidate_text_color">FFFFFF</span></div>
-	  <div>&nbsp;&nbsp;&nbsp;&nbsp;comment_text_color:&nbsp;0x<span id="comment_text_color">FFFFFF</span></div>
+		<div><span>&nbsp;&nbsp;"preset_color_schemes/</span><span id="schema">宋青</span><span>":</span></div>
+    <div>&nbsp;&nbsp;&nbsp;&nbsp;name:&nbsp;<span id="name">Jack的配色/宋青</span></div>
+    <div>&nbsp;&nbsp;&nbsp;&nbsp;author:&nbsp;<span id="author">Jack</span></div>
+    <div>&nbsp;&nbsp;&nbsp;&nbsp;back_color:&nbsp;0x<span id="back_color">343647</span></div>
+    <div>&nbsp;&nbsp;&nbsp;&nbsp;border_color:&nbsp;0x<span id="border_color">343647</span></div>
+    <div>&nbsp;&nbsp;&nbsp;&nbsp;text_color:&nbsp;0x<span id="text_color">F8E1BA</span></div>
+    <div>&nbsp;&nbsp;&nbsp;&nbsp;hilited_text_color:&nbsp;0x<span id="hilited_text_color">C65E62</span></div>
+    <div>&nbsp;&nbsp;&nbsp;&nbsp;hilited_back_color:&nbsp;0x<span id="hilited_back_color">343647</span></div>
+    <div>&nbsp;&nbsp;&nbsp;&nbsp;hilited_candidate_text_color:&nbsp;0x<span id="hilited_candidate_text_color">F8E1BA</span></div>
+    <div>&nbsp;&nbsp;&nbsp;&nbsp;hilited_candidate_back_color:&nbsp;0x<span id="hilited_candidate_back_color">343647</span></div>
+    <div>&nbsp;&nbsp;&nbsp;&nbsp;candidate_text_color:&nbsp;0x<span id="candidate_text_color">C65E62</span></div>
+	  <div>&nbsp;&nbsp;&nbsp;&nbsp;comment_text_color:&nbsp;0x<span id="comment_text_color">C65E62</span></div>
 	</div>
 	</td>
 	</tr>
