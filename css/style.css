@@ -2,7 +2,7 @@ body,a,div,span,h1,h2,table{margin: 0px;padding: 0px;}
 body{
 	width: 1000px;
 	margin: 0 auto;
-	background-color: #F8E1BA;}
+	background-color: #e8e2ca;}
 h1{background-color: #343647;color: #C65E62;display: inline-display; padding: 1em 0 0.5em 1em;}
 h1 span{font-size: 1.5em;}
 table{width: 1000px;height:450px;padding: 20px 0 20px 0px;border: 1px solid black;}
@@ -41,7 +41,7 @@ padding: 20px 20px 20px 10px;width:300px;
 #label{
 	margin-right: 5px;}
 
-#n1{
+#display #n1{
 	border-radius: 5px;
 	width: 125px;
 	padding:1px 2px 1px 2px;
