@@ -15,8 +15,8 @@ padding: 20px 20px 20px 10px;width:300px;
 }
 
 #box{
-	background-color: #FFFFFF;
-	border: 3px solid #000000;
+	background-color: #343647;
+	border: 3px solid #343647;
 	font-size: 18px;
 	font-family:'Microsoft YaHei';
 	width: 160px;
@@ -25,16 +25,17 @@ padding: 20px 20px 20px 10px;width:300px;
 #select{
 	margin-bottom: 10px;}
 #select #text{
-	color: black;}
+	color: #C65E62;}
 #select #hilited{
 	padding: 1px 2px 1px 2px;
 	border-radius: 5px;
-	background-color: #dddddd;
-	color: black;}
+	background-color: #343647;
+	color: #F8E1BA;}
 #word{margin-right: 4px;}
 
 #display div{
-	margin: 4px 0 4px 0px;}
+	margin: 4px 0 4px 0px;
+  color: #C65E62}
 #display div:last-child{
 	margin-bottom:0px;}
 #label{
@@ -44,8 +45,8 @@ padding: 20px 20px 20px 10px;width:300px;
 	border-radius: 5px;
 	width: 125px;
 	padding:1px 2px 1px 2px;
-	background-color: black;
-	color: white;}
+	background-color: #343647;
+	color: #F8E1BA;}
 [id=*"n"]{padding-left:2px;}
 
 #code{
