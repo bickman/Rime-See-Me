@@ -1,4 +1,4 @@
-﻿"RIME西米"说明
+﻿# "RIME西米"说明
 版本0.0(西历2013年7月28日)
 
 README FOR "RIME SEE-ME"
